@@ -3,7 +3,7 @@ def square_array(array)
   temp_array = []
   index = 0
   while index < array.length do
-   temp_array << Math.sqrt(array[index])
+   temp_array << array[index])
    index +=1
   end
   temp_array
