@@ -3,7 +3,7 @@ def square_array(array)
   temp_array = []
   index = 0
   while index < array.length do
-   temp_array << array[index])
+   temp_array << array[index]**2
    index +=1
   end
   temp_array
