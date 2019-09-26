@@ -4,6 +4,7 @@ def square_array(array)
   index = 0
   while index < array.length do
    temp_array << Math.sqrt(array[index])
+   index +=1
   end
   temp_array
 end
